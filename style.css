@@ -1,0 +1,16 @@
+.container{
+    border: 2px solid;
+    padding: 50px;
+    margin: 50px;
+    padding-top: 10px;
+}
+.heading{
+    margin-bottom: 40px !important;
+}
+@media screen and (max-width:414px) {
+    .container{
+        padding: 20px !important;
+        width: 80% !important;
+        margin-left: 20px !important;
+    }
+}

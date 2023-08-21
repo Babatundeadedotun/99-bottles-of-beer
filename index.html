@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>99 Bottles Of Beer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 class="heading">99 Bottles Of Beer on the Wall</h1>
+
+    <div id="bottles"></div>
+
+    <div id="bottle2"></div>
+
+    </div>
+    
+
+
+
+    <script>
+
+        for (i=99; i>=1; i--) {
+
+        var minus = i - 1;
+
+        bottles.innerHTML += `<p>${i} bottles of beer on the wall. ${i} bottles of beer. Take one down, pass it around, ${minus} bottles of beer on the wall.</p>`;
+
+
+        }
+
+        bottle2.innerHTML += `<p>0 bottles of beer on the Wall. 0 bottles of beer. We've taken them down and passed them around; now we're drunk and passed out!</p>`;
+   
+   </script>
+</body>
+</html>
